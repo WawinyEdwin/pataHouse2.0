@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+        <title> registration </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel ="stylesheet" href ="style/page.css">
+        <link rel="stylesheet" href="style/pata.css">
+        <script src="script/registration.js"></script>
+</head>
+<body style="background-image: url(house.jpg);">
+    <div id ="back">
+        <nav class= "navbar navbar-expand-lg mb-3">
+            <a class =" navbar-brand mr-3"> PataHouse </a>
+            <div>
+                <a href ="landing-page.html" class="nav-item nav-link"> Residence </a>
+            </div>
+        </nav>
+    </div>
+    <div>
+    <div class="text-center">
+        <h2> Welcome to PataHouse!</h2>
+    </div>
+    <br>
+    <div class ="text-center">
+    <h6> Thanks for your interest in  pataHouse!</h6>
+    </div>
+    <div class ="form-group text-center">
+        <form action="" method="POST">
+            <label> Phone Number </label>
+            <br>
+            <input type="tel" name ="phone" required>
+            <br>
+            <label> Password </label>
+            <br>
+            <input type="password" name ="psw1" required>
+            <br>
+            <small class ="text-muted">
+            Password must be 8-20 characters long
+            </small>
+            <br>
+            <label> Confirm Password </label>
+            <br>
+            <input type="password" name ="psw2" required>
+            <br>
+            <label for="code"> Enter the verification code </label>
+            <br>
+            <input type="number" name="" id="" required>
+            <p> By clicking register you agree to pataHouse <a href ="policy.html"> Privacy Policy </a> and <a href ="terms.html"> Terms and Conditions </a> !
+            </p>
+                <button class ="btn btn-primary"  onclick="submitFunction()"> REGISTER </button>
+                <hr>
+                <h4> Already have an account? <a href= "login-page.html"> LOGIN </a></h4>
+        </form>
+        </div>
+    <div id ="footer" class= "footer-expand-lg  text-center">
+        <footer> pataHouse 2021 | All rights Reserved. </footer>
+    </div>
+    </div>
+</body>
+</html>

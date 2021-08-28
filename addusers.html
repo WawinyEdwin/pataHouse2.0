@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="rename/page.css">
+<link rel="stylesheet" href="rename/pata.css">
+<link rel="stylesheet" href="rename/admin.css">
+<script src="admin.js"></script>
+    </head>
+    <body>
+            <nav class="navbar" id="back">
+                <h1 class="navbar-brand"> <a> pataHouse </a></h1>
+            </nav>
+            <div class="sidenav" id="mynav">
+                <a href="#"> Dashboard </a>
+                <div class="dropdown">
+                    <a href="#"  onclick="myFunction()"> Users </a>
+                    <div id = "mydropdown" class="dropdown-content">
+                        <a href="addusers.html"> add users </a>
+                    </div>
+                </div>
+                <br>
+                 <div class="dropdown">
+                    <a href="#" onclick="myFunction()"> Accounts </a>
+                    <div class="dropdown-content" id="mydropdown">
+                        <a href="addaccount.html"> add new account </a>
+                    </div>
+                </div>
+                 <br>
+                 <div class="dropdown">
+                    <a href="#" onclick="myFunction()"> Utilities </a>
+                    <div class="dropdown-content" id="mydropdown">
+                        <a href="newutilities.html"> new utilities </a>
+                    </div>
+                </div>
+                <div>
+                 <a href="#"> log out </a>
+                </div>
+        </div>
+        <nav class="navbar" id="back">
+            <h1 class="navbar-brand"> <a> pataHouse </a></h1>
+        </nav>
+        <div class="mainuser">
+            <div class="text-center">
+                <h1> Create Account </h1>
+                <form action="" method="POST" class="form"> 
+                    
+                    <label> EMAIL </label><br>
+                    <input type="email" required>
+                    <br>
+                    <label> PHONE NUMBER </label><br>
+                    <input type="tel" required>
+                    <br>
+                    <label> SET PASSWORD </label> <br>
+                    <input type="password" required>
+                    <br>
+                    <label> CONFIRM PASSWORD </label><br>
+                    <input type="password" required>
+                    <br>
+                    <br>
+                    <button class=" btn btn-primary">
+                        <p> ADD USER </p>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="mainuser" id="footer">
+            <footer> pataHouse 2021 || All Rights reserved </footer>
+        </div>
+    </body>
+</html>
